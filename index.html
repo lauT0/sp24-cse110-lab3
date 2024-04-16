@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lab 2: Meeting Minutes</title>
+    <meta name="author" content="Sam Lau">
+    <link rel="icon" href="https://em-content.zobj.net/source/apple/81/grinning-face-with-smiling-eyes_1f601.png">
+
+  </head>
+  <body>
+    <nav>
+        <a href="https://laut0.github.io/lab1cse110/">Lab 1</a>
+        <a href="">Lab 2</a>
+    </nav>
+    <main>
+        <header>
+            <h1>Journal Website Brainstorm</h1>
+            <h3>Date: 4/14/24</h3>
+        </header>
+
+        <section class="attentance">
+            <h2>Attendance:</h2>
+            <ol>
+                <li>Sam Lau</li>
+                <li>Samuel Laun</li>
+                <li>Howl Pendragon</li>
+                <li>Zhong Li</li>
+                <li>Faye Webster <b>(late)</b></li>
+
+            </ol>
+        </section>
+
+        <section class="agenda">
+            <h2>Agenda:</h2>
+            <ul>
+                <li>Followups</li>
+                <ul>
+                    <li>Final Decisions on styling</li>
+                    <li>Database set up</li>
+                </ul>
+                <li>New Topics</li>
+                <ul>
+                    <li>User auathentication</li>
+                    <li></li>
+                </ul>
+                <li>Questions/Comments</li>
+            </ul>
+        </section>
+        <section class="Recordings">
+            <div class="box">
+                <h2>Recordings:</h2>
+                <video controls width="500">
+                    <source src="IMG_5055.MOV">
+                </video>
+                <br>
+                <audio controls src="audio_IMG_5055.m4a"></audio>
+            </div>
+            
+
+        <section class="followups">
+            <h2>Follow Ups:</h2>
+            <div class="box">
+                <h4>Final Styling Decisions:</h4>
+                <p>Website will consist of <i>log</i> page, <i>new entry</i> page, and a <i>user</i> page accessable by the user icon. It will have two themes: light mode will be a sage and white color theme. Dark mode will be a basil and dark grey color.</p>
+                <details>
+                    <summary>Page specifics</summary>
+                    <ul>
+                        <li>Log page = clean look, news entrys on top, search bar to find key words, each entry will have a "block"</li>
+                        <li>Entry page = one block with some text styling options on top</li>
+                        <li>User Page = simple, name, date account made, settings/options</li>
+                    </ul>
+                    <img src="log_diagram.png" alt="diagram of the log page" width="500">
+                    <img src="new_entry_diagram.png" alt="diagram of the new entry page" width="500">
+                </details>
+                <hr>
+                <p>We still need to decide what settings/options should consist of. Right now were thinking: keep entries after 1 year option, and </p>
+            </div>
+            <div class="box">
+                <h4>Database set up:</h4>
+                <p>Data base was set up on friday, should be working and able to write to. Everyone on team should have admin to database, check your emails please - <span>Howl</span></p>
+            </div>
+            
+        </section>
+
+        <section class="updates">
+            <h2>New Topics:</h2>
+            <div class="box">
+                <h4>User Authentication:</h4>
+                <p>We haven't talked about how user authentication will work yet, we definetly need it if we have accounts. This is a <strong>very serious issue</strong>, <em>we need to ensure user privacy.</em></p>
+                <ul>
+                    <li>Assigning this task to: <span>Faye Webster and Zhongli</span>, next week let us know the general approach</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="questions">
+            <h2>Questions/Comments:</h2>
+            <ul>
+                <li>What if people really <b>hate</b> the color green, shouldn't there be another theme?</li>
+                <ul>
+                    <li>What if we have the secondary color customizable? the default for light and dark can be sage/basil respectively</li>
+                </ul>
+            </ul>
+            <p>Please fill out the form bellow after the meeting:</p>
+            <form action="" method="get" id="favorite">
+                <fieldset>
+                    <legend>Choose your favorite name for the website:</legend>
+                    <input type="radio" id="Journalit">
+                    <label for="Journalit">Journalit</label>
+                    <input type="radio" id="reflections">
+                    <label for="reflections">Reflections</label>
+                </fieldset>
+                <label for="suggestions">Any Suggestions for next meeting/ anything you want to bring up?</label>
+                <textarea id="suggestions" name="suggestions" rows="5" cols="100"></textarea>
+
+                <br>
+
+                <label for="feeling"> How confident do you feel about this project? </label>
+                <input list="feelings" id="feeling" name="feeling">
+                <datalist id="feelings">
+                    <option value="Very confident">
+                    <option value="Confident">
+                    <option value="Mid">
+                    <option value="Unconfident">
+                    <option value="Very Unconfident">
+                </datalist>
+                <br>
+                <label for="relfection">How stressed do you feel by your tasks?</label>
+                <select name="reflection" id="reflection">
+                    <option value=""> --pick a level of stress--</option>
+                    <option value="Very stressed">Very stressed</option>
+                    <option value="stressed">Stressed</option>
+                    <option value="ok">Somewhat stressed</option>
+                    <option value="not stressed">Not Stressed</option>
+                </select>
+                <br>
+
+
+                <button form="favorite">Submit</button>
+            </form>
+            
+            
+        </section>
+
+        <footer>
+            <p>Meeting time: 30 Minutes</p>
+            <p>Next meeting date: 4/20/24</p>
+            <p>Let team lead know if you cant make it</p>
+
+        </footer>
+    </main>
+  </body>
+</html>
