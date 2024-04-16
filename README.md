@@ -1,1 +1,1 @@
-# Lab 2 - Starter
+https://laut0.github.io/110lab2/
