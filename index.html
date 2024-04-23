@@ -4,7 +4,10 @@
     <title>Lab 2: Meeting Minutes</title>
     <meta name="author" content="Sam Lau">
     <link rel="icon" href="https://em-content.zobj.net/source/apple/81/grinning-face-with-smiling-eyes_1f601.png">
-
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
   <body>
     <nav>
@@ -13,8 +16,8 @@
     </nav>
     <main>
         <header>
-            <h1>Journal Website Brainstorm</h1>
-            <h3>Date: 4/14/24</h3>
+            <h1 id="webtitle">Journal Website Brainstorm</h1>
+            <h3 id="date">Date: 4/14/24</h3>
         </header>
 
         <section class="attentance">
@@ -47,8 +50,8 @@
             </ul>
         </section>
         <section class="Recordings">
-            <div class="box">
-                <h2>Recordings:</h2>
+            <h2>Recordings:</h2>
+            <div class="housekeeping">
                 <video controls width="500">
                     <source src="IMG_5055.MOV">
                 </video>
@@ -95,13 +98,17 @@
 
         <section class="questions">
             <h2>Questions/Comments:</h2>
-            <ul>
-                <li>What if people really <b>hate</b> the color green, shouldn't there be another theme?
-                    <ul>
-                        <li>What if we have the secondary color customizable? the default for light and dark can be sage/basil respectively</li>
-                    </ul>
-                </li>
-            </ul>
+            <div class="box">
+                <ul>
+                    <li>What if people really <b>hate</b> the color green, shouldn't there be another theme?
+                        <ul>
+                            <li>What if we have the secondary color customizable? the default for light and dark can be sage/basil respectively</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            
+            <div id="formbox">
             <p>Please fill out the form bellow after the meeting:</p>
             <form method="get" id="feedback">
                 <fieldset>
@@ -155,6 +162,8 @@
                 <br>
                 <button form="feedback">Submit</button>
             </form>
+            </div>
+            
             
             
         </section>

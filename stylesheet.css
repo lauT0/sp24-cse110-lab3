@@ -1,0 +1,32 @@
+body{
+    background-color: #d3dbd5;
+    color: gray
+}
+
+#webtitle{
+    color: rgb(28, 71, 33);
+    text-align: left;
+}
+
+#date{
+    color: color(srgb-linear 10% 23% 15% / 80%);
+}
+
+h2 {
+    color:hsl(117, 12%, 32%);
+    
+}
+
+h4 {
+    text-decoration: underline;
+}
+
+.box {
+    background-color: color-mix(in srgb, DarkSeaGreen  40%, black 30%);
+    color: whitesmoke;
+}
+
+#formbox {
+    background-color: color-mix(in srgb, DarkSeaGreen  10%, white 100%);
+    text-align: center;
+}
