@@ -111,55 +111,65 @@
             <div id="formbox">
             <p>Please fill out the form bellow after the meeting:</p>
             <form method="get" id="feedback">
-                <fieldset>
-                    <legend>Choose your favorite name for the website:</legend>
-                    <input type="radio" id="Journalit">
-                    <label for="Journalit">Journalit</label>
-                    <input type="radio" id="reflections">
-                    <label for="reflections">Reflections</label>
-                </fieldset>
-                <label for="suggestions">Any Suggestions for next meeting/ anything you want to bring up?</label>
-                <textarea id="suggestions" name="suggestions" rows="5" cols="50"></textarea>
-              <br>
-              <fieldset>
-                    <legend>Choose your favorite colors:</legend>
-                    <input type="checkbox" id="sage">
-                    <label for="sage">Sage</label>
-                    <input type="checkbox" id="mint">
-                    <label for="mint">Mint</label>
-                    <input type="checkbox" id="forrest">
-                    <label for="forrest">Forrest</label>
-                    <input type="text" id="other">
-                    <label for="other">Other:</label>
-                </fieldset>
+                <div id="formgrid">
+                    <div class="item" id="item-a"> 
+                        <fieldset>
+                            <legend>Choose your favorite name for the website:</legend>
+                            <input type="radio" id="Journalit">
+                            <label for="Journalit">Journalit</label>
+                            <input type="radio" id="reflections">
+                            <label for="reflections">Reflections</label>
+                        </fieldset>
+                        
+                    </div>
 
-                <br>
+                    <div class="item" id="item-e">
+                        <label for="suggestions">Any Suggestions for next meeting/ anything you want to bring up?</label>
+                        <textarea id="suggestions" name="suggestions" rows="5" cols="50"></textarea>
+                    </div>
+                    
+                    <div class="item" id="item-b">
+                        <fieldset>
+                            <legend>Choose your favorite colors:</legend>
+                            <input type="checkbox" id="sage">
+                            <label for="sage">Sage</label>
+                            <input type="checkbox" id="mint">
+                            <label for="mint">Mint</label>
+                            <input type="checkbox" id="forrest">
+                            <label for="forrest">Forrest</label>
+                            <label for="other">Other:</label>
+                            <input type="text" id="other">
+                        </fieldset>
+                    </div>
 
-                <label for="feeling"> How confident do you feel about this project? </label>
-                <input list="feelings" id="feeling" name="feeling">
-                <datalist id="feelings">
-                    <option value="Very confident">
-                    <option value="Confident">
-                    <option value="Mid">
-                    <option value="Unconfident">
-                    <option value="Very Unconfident">
-                </datalist>
+                    <div class="item" id="item-c">
+                        <label for="feeling"> How confident do you feel about this project? </label>
+                        <input list="feelings" id="feeling" name="feeling">
+                        <datalist id="feelings">
+                            <option value="Very confident">
+                            <option value="Confident">
+                            <option value="Mid">
+                            <option value="Unconfident">
+                            <option value="Very Unconfident">
+                        </datalist>                        
+                    </div>
 
-                <br>
+                    <div class="item" id="item-d">
+                        <label for="reflection">How stressed do you feel by your tasks?</label>
+                        <select name="reflection" id="reflection">
+                            <option value=""> --pick a level of stress--</option>
+                            <option value="Very stressed">Very stressed</option>
+                            <option value="stressed">Stressed</option>
+                            <option value="ok">Somewhat stressed</option>
+                            <option value="not stressed">Not Stressed</option>
+                        </select>                       
+                    </div>
 
-                <label for="reflection">How stressed do you feel by your tasks?</label>
-                <select name="reflection" id="reflection">
-                    <option value=""> --pick a level of stress--</option>
-                    <option value="Very stressed">Very stressed</option>
-                    <option value="stressed">Stressed</option>
-                    <option value="ok">Somewhat stressed</option>
-                    <option value="not stressed">Not Stressed</option>
-                </select>
-                <br>
-
-                <input type="date" id="dos">
-                <label for="dos">Date of completion:</label>
-                <br>
+                    <div class="item">
+                        <label for="dos">Date of completion:</label>
+                        <input type="date" id="dos">
+                    </div>
+                </div>
                 <button form="feedback">Submit</button>
             </form>
             </div>
