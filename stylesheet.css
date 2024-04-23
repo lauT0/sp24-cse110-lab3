@@ -24,9 +24,27 @@ h4 {
 .box {
     background-color: color-mix(in srgb, DarkSeaGreen  40%, black 30%);
     color: whitesmoke;
+    margin: 10px;
+    padding: 1px 15px 15px 15px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: color-mix(in srgb, DarkSeaGreen  40%, black 31%);
+    border-width: 2px;
+    max-width: 80%;
 }
 
 #formbox {
     background-color: color-mix(in srgb, DarkSeaGreen  10%, white 100%);
     text-align: center;
+    margin: 10px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: color-mix(in srgb, DarkSeaGreen  40%, black 31%);
+    border-width: 2px;
+    max-width: 80%;
 }
+
