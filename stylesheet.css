@@ -2,6 +2,9 @@ body{
     background-color: #d3dbd5;
     color: gray
 }
+nav{
+    display: none;
+}
 
 #webtitle{
     color: rgb(28, 71, 33);
@@ -10,6 +13,11 @@ body{
 
 #date{
     color: color(srgb-linear 10% 23% 15% / 80%);
+}
+
+.housekeeping{
+    display: inline-block;
+    margin: 5px;
 }
 
 h2 {
@@ -24,7 +32,10 @@ h4 {
 .box {
     background-color: color-mix(in srgb, DarkSeaGreen  40%, black 30%);
     color: whitesmoke;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     padding: 1px 15px 15px 15px;
     border-radius: 10px;
     border-style: solid;
@@ -36,7 +47,7 @@ h4 {
 #formbox {
     background-color: color-mix(in srgb, DarkSeaGreen  10%, white 100%);
     text-align: center;
-    margin: 10px;
+    margin: 10px 10px 10px 10px;
     padding-top: 5px;
     padding-bottom: 15px;
     padding-left: 15px;
@@ -46,5 +57,16 @@ h4 {
     border-color: color-mix(in srgb, DarkSeaGreen  40%, black 31%);
     border-width: 2px;
     max-width: 80%;
+    display: grid;
 }
+
+#container1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+
 
