@@ -97,3 +97,13 @@ h4 {
     grid-column: second / span 1;
     grid-row: thirRow / span 1;
 }
+
+button:hover{
+    background-color: rgb(122, 167, 141);
+}
+
+button:active{
+    background-color: rgb(46, 127, 56);
+    color: white;
+}
+
