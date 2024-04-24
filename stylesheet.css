@@ -145,13 +145,17 @@ div.box {
 }
 
 /*psuedo classes*/
-button:hover{
-    background-color: rgb(122, 167, 141);
-}
+button{
+    background-color: white;
 
-button:active{
-    background-color: var(--title-green);
-    color: white;
+    &:hover {
+        background-color: rgb(122, 167, 141);
+    }
+
+    &:active{
+        background-color: var(--title-green);
+        color: white;
+    }
 }
 
 
