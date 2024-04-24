@@ -1,6 +1,10 @@
- 
-.roboto-mono-smth {
-    font-family: "Roboto Mono", monospace;
+*{
+    font-family: Andale Mono, monospace;
+}
+
+/*add custom font*/
+.work-sans-custom {
+    font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -116,11 +120,11 @@ button:active{
 }
 
 video{
-    width: 500px;
+    width: 600px;
 }
 
 @media screen and (max-width: 600px) {
     video {
-        width: 100%;
+        width: 100vw;
     }
-  }
+}
