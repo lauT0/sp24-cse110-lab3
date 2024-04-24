@@ -1,1 +1,1 @@
-https://laut0.github.io/110lab2/
+https://laut0.github.io/sp24-cse110-lab3/
